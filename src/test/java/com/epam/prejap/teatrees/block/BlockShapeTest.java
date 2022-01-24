@@ -46,5 +46,4 @@ public class BlockShapeTest {
         assertEquals(block.dotAt(i, j), expectedDot,
                 String.format("%s: incorrect dotAt(%s, %s)", block.getClass().getSimpleName(), i, j));
     }
-
 }
