@@ -7,23 +7,22 @@ package com.epam.prejap.teatrees.block;
  * @author Dzmitry_Tatarski
  */
 
-final class OBlock extends Block {
+public class TBlock extends Block{
 
     /**
-     * Byte array represents "O" block.
+     * Byte array represents "Y" block.
      * In game will be displayed as (between lines):
      *  -------------------
-     *      ##
-     *      ##
+     *      ###
+     *       #
      *  -------------------
      */
     private static final byte[][] IMAGE = {
-        {1, 1},
-        {1, 1},
+            {1, 1, 1},
+            {0, 1, 0},
     };
 
-    public OBlock() {
+    public TBlock() {
         super(IMAGE);
     }
-
 }
